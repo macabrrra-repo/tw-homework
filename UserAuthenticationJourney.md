@@ -95,7 +95,7 @@ Below, you can find two simple diagrams, one of which illustrates a user authent
 
 Jean Paul is a successful salesman, who has a lot of work travels. He tries to access his company sales platform from his clients office. His company authentication policy has multifactor authentication enabled for all employees and takes into consideration their risk score.  
 
-![User Authorization Journey with successfully gained access to the system.](/tw-homework\SuccessfulUserAuthJourney.png)
+![User Authorization Journey with successfully gained access to the system.](/SuccessfulUserAuthJourney.png)
 
 ```mermaid
 journey
@@ -122,7 +122,7 @@ You can see that Jean Paul's user experience lowered once he was asked for perfo
 
 Carol is a teenager that tries to access a social platform account of his colleague, Mark. He saw Mark typing in his credentials and is almost sure that he will be able to mess with his friend. 
 
-![User Authorization Journey with attempts to access failed and account locked](/tw-homework\FailedAttemptsUserAuthJourney.png)
+![User Authorization Journey with attempts to access failed and account locked](/FailedAttemptsUserAuthJourney.png)
 
 ```mermaid
 journey 
