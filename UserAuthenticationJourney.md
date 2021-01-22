@@ -19,11 +19,11 @@ There are three main tasks for the user authentication process:
 - It verifies user's identity.
 - It approves or declines user's authentication.
 
-This blog post will introduce you to different authentication policies and methods. It will discuss challenges that your user must face during the process of veryfing their identity. It also explores differen authentication scenarios and provides hints how to design your user authentication journey. 
+This blog post will introduce you to different authentication policies and methods. It will discuss challenges that your user must face during the process of veryfing their identity. It also explores authentication scenarios and provides hints how to design your user authentication journey. 
 
 # Authentication Methods
 In order to confirm their credentials, users must provide an information that only them and the server know. There are three types of such information:  
-- Knowledge-based. To confirm their identity, users provide a piece of information they have in their knowledge, for example, a pin number, an username and a password. 
+- Knowledge-based. To confirm their identity, users provide a piece of information they have in their knowledge, for example, a pin number, a username and a password. 
 - Inheritance-based. Users authenticate themselves by providing their biological characteristics, like a fingerprint, or a facial scan. 
 - Possession-based. A specific item allows the user to authenticate themselves. It may be, for example an ID card, or a special token that generates authentication codes. 
 
@@ -45,7 +45,7 @@ A certificate-based method allows the user to provide a digital certificate as a
 A token-based method provides the users with a string of random characters (a token). The users have to provide they credentials once and after that their receive their digital token. From now on, the user provides the token to the system to authenticate themselves without a need to reenter their credentials. 
 
 ## Multifactor Authentication
-A Multifactor Authentication (MFA) is a method that links more than one independent method of authentication. There are multiple ways to build such authentication process. For example, the server may require providing an username, a password, and a code sent via a text message. Sometimes, the user must solve a Captcha test.  
+A Multifactor Authentication (MFA) is a method that links more than one independent method of authentication. There are multiple ways to build such authentication process. For example, the server may require providing a username, a password, and a code sent via a text message. Sometimes, the user must solve a Captcha test.  
 
 An MFA is the safest way to authenticate a user, but it has its downsides. For example, a user may lose access to their email or phone leaving them with no access to the system. 
 
